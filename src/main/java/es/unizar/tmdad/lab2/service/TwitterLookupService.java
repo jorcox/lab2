@@ -18,7 +18,6 @@ public class TwitterLookupService {
 	}
 	
 	public Set<String> getQueries() {
-		System.out.println(connections.keySet());
 		return connections.keySet();
 	}
 	
